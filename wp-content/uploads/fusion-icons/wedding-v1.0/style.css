@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'wedding';
+  src:  url('fonts/wedding.eot?5j5k2l');
+  src:  url('fonts/wedding.eot?5j5k2l#iefix') format('embedded-opentype'),
+    url('fonts/wedding.ttf?5j5k2l') format('truetype'),
+    url('fonts/wedding.woff?5j5k2l') format('woff'),
+    url('fonts/wedding.svg?5j5k2l#wedding') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="wedding-"], [class*=" wedding-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'wedding' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wedding-close:before {
+  content: "\e900";
+}
+.wedding-menu:before {
+  content: "\e901";
+}
